@@ -7,11 +7,12 @@
 
 ## References and Resources
 
-List any resources used here, or simply put `N/A` if not applicable.
+- CMPUT 301 Lab 5 Firestore Integration slides
+- Firebase documentation: https://firebase.google.com/docs/firestore
+- Claude (Anthropic): AI assistance with the Firestore integration and the delete feature
 
 ## Verbal Collaboration
 
 | Student Name | CCID      |
 | ------------ | --------- |
-| `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
+| N/A          | N/A       |

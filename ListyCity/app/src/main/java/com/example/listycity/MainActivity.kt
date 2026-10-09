@@ -12,12 +12,10 @@ import com.example.listycity.ui.theme.ListyCityTheme
 
 
 class MainActivity : ComponentActivity() {
-    private lateinit var cityRepository: CityRepository
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        cityRepository = CityRepository()
+        val cityRepository = CityRepository()
 
         setContent {
             ListyCityTheme {
@@ -34,10 +32,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-
-    override fun onDestroy() {
-        cityRepository.close()
-        super.onDestroy()
     }
 }
